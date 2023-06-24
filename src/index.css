@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #27272a;
+  color: #fff;
+}
+
+.active-weather-card {
+  @apply bg-blue-200 text-black h-fit p-5 rounded-3xl 
+}
+
+.passive-weather-card {
+  @apply bg-neutral-700 text-white sm:w-48 p-5 rounded-3xl mt-8 md:mt-0
+}
